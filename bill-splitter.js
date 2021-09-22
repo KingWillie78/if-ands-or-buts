@@ -1,11 +1,11 @@
 const prompt = require('prompt-sync')();
 
-const handsomeGuy = prompt('How much did handsomeGuy pay? ');
-const singleGirl = prompt('How much did singleGirl pay? ');
+const person1 = prompt('How much did person1 pay? ');
+const person2 = prompt('How much did person2 pay? ');
 
-if (handsomeGuy > singleGirl) {
-    console.log('singleGirl owes $')
+if (person1 > person2) {
+    console.log('person1 owes person2 $')
 }
 else {
-    console.log('handsomeGuy owes $')
+    console.log('person2 owes person1 $')
 }
